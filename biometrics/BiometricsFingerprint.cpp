@@ -93,7 +93,7 @@ Return<RequestStatus> BiometricsFingerprint::ErrorFilter(int32_t error) {
             return RequestStatus::SYS_UNKNOWN;
     }
 }
-
+// Blah Blah
 // Translate from errors returned by traditional HAL (see fingerprint.h) to
 // HIDL-compliant FingerprintError.
 FingerprintError BiometricsFingerprint::VendorErrorFilter(int32_t error,
